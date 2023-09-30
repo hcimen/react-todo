@@ -1,1 +1,0 @@
-# inital-react-class
