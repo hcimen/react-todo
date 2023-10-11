@@ -33,8 +33,7 @@ const todo_list = [
     },
   ];
 
-function TodoList() {
-    
+const TodoList = () => {
     return (
         <ul>
         {todo_list.map((item) => (
@@ -42,8 +41,7 @@ function TodoList() {
            {item.id}. {item.todo} - {item.due_date} </li>
         ))}
       </ul>
-    )
-
+    );
 }
 
 export default TodoList;
