@@ -13,9 +13,6 @@ const App = () => {
         <hr />
       <TodoList />
        <hr />
-      <div>
-        {secret}
-      </div>
        <hr />
   </div>
   );
