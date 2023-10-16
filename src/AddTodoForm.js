@@ -6,8 +6,7 @@ const AddTodoForm = () => {
         <form>
             <label htmlFor='todoTitle'> TITLE </label> <br /> <br />
             <input type='text' id='todoTitle'/>  <br /> <br />
-            <button type='submit'> Add  </button>
-            <button type='submit'> Delete </button> <br /> <br />
+            <button type='submit'> Add  </button> <br />
         </form>
     </div>
     );
