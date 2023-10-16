@@ -2,8 +2,6 @@ import React from 'react';
 import AddTodoForm from './AddTodoForm';
 import TodoList from './TodoList';
 
-const secret = 'Hello CTD';
-
 const App = () => {  
   return(  
   <div>
