@@ -11,6 +11,7 @@ const App = () => {
         <hr />
       <TodoList />
        <hr />
+       <p> lesson_1_3 </p>
   </div>
   );
 }
