@@ -11,7 +11,6 @@ const App = () => {
         <hr />
       <TodoList />
        <hr />
-       <hr />
   </div>
   );
 }
