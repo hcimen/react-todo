@@ -2,16 +2,20 @@ import React from 'react';
 import AddTodoForm from './AddTodoForm';
 import TodoList from './TodoList';
 
-const App = () => {  
+const App = () => { 
+  const [newTodo, setNewTodo] = React.useState('here');  
   return(  
   <div>
       <h1> Todo List </h1>
         <hr />      
-      <AddTodoForm />
+      <AddTodoForm onAddTodo={setNewTodo} />
         <hr />
       <TodoList />
        <hr />
-       <p> lesson_1_3 </p>
+       
+      <p>
+       <strong>{'Your input is  ' + newTodo}</strong>
+      </p>
   </div>
   );
 }
