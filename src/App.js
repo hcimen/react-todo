@@ -3,7 +3,7 @@ import AddTodoForm from './AddTodoForm';
 import TodoList from './TodoList';
 
 const App = () => { 
-  const [newTodo, setNewTodo] = React.useState('here');  
+  const [newTodo, setNewTodo] = React.useState('');  
   return(  
   <div>
       <h1> Todo List </h1>
@@ -14,7 +14,7 @@ const App = () => {
        <hr />
        
       <p>
-       <strong>{'Your input is  ' + newTodo}</strong>
+       {newTodo}
       </p>
   </div>
   );
